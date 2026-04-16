@@ -1,0 +1,88 @@
+=== Simulação do Agente de Limpeza ===
+
+Informações Iniciais:
+Posição inicial: (0, 0)
+Estado inicial do grid: [['limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo'], ['sujo', 'sujo', 'sujo']]
+Pontuação inicial: 0
+
+Passo 1:
+  Percepção: sujo
+  Ação: limpar
+  Direção: baixo
+  Posição: (0, 0)
+  Pontuação: 1
+  Estado do grid: [['limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo'], ['sujo', 'sujo', 'sujo']]
+
+Passo 2:
+  Percepção: limpo
+  Ação: mover
+  Direção: direita
+  Posição: (0, 0)
+  Pontuação: 0
+  Estado do grid: [['limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo'], ['sujo', 'sujo', 'sujo']]
+
+Passo 3:
+  Percepção: limpo
+  Ação: mover
+  Direção: direita
+  Posição: (0, 0)
+  Pontuação: -1
+  Estado do grid: [['limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo'], ['sujo', 'sujo', 'sujo']]
+
+Passo 4:
+  Percepção: limpo
+  Ação: mover
+  Direção: baixo
+  Posição: (0, 0)
+  Pontuação: -2
+  Estado do grid: [['limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo'], ['sujo', 'sujo', 'sujo']]
+
+Passo 5:
+  Percepção: limpo
+  Ação: mover
+  Direção: esquerda
+  Posição: (0, 0)
+  Pontuação: -3
+  Estado do grid: [['limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo'], ['sujo', 'sujo', 'sujo']]
+
+Passo 6:
+  Percepção: limpo
+  Ação: mover
+  Direção: esquerda
+  Posição: (0, 0)
+  Pontuação: -4
+  Estado do grid: [['limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo'], ['sujo', 'sujo', 'sujo']]
+
+Passo 7:
+  Percepção: limpo
+  Ação: mover
+  Direção: direita
+  Posição: (0, 0)
+  Pontuação: -5
+  Estado do grid: [['limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo'], ['sujo', 'sujo', 'sujo']]
+
+Passo 8:
+  Percepção: limpo
+  Ação: mover
+  Direção: esquerda
+  Posição: (0, 0)
+  Pontuação: -6
+  Estado do grid: [['limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo'], ['sujo', 'sujo', 'sujo']]
+
+Passo 9:
+  Percepção: limpo
+  Ação: mover
+  Direção: cima
+  Posição: (0, 0)
+  Pontuação: -7
+  Estado do grid: [['limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo'], ['sujo', 'sujo', 'sujo']]
+
+Passo 10:
+  Percepção: limpo
+  Ação: mover
+  Direção: esquerda
+  Posição: (0, 0)
+  Pontuação: -8
+  Estado do grid: [['limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo'], ['sujo', 'sujo', 'sujo']]
+
+=== Fim da Simulação ===
