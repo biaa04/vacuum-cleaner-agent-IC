@@ -1,0 +1,807 @@
+=== Simulação do Agente de Limpeza ===
+
+Informações Iniciais:
+Posição inicial: (0, 0)
+Estado inicial do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+Pontuação inicial: 0
+
+Passo 1:
+  Percepção: sujo
+  Ação: limpar
+  Direção: direita
+  Posição: (0, 1)
+  Pontuação: 1
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 2:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: direita
+  Posição: (0, 2)
+  Pontuação: 0
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 3:
+  Percepção: sujo
+  Ação: limpar
+  Direção: direita
+  Posição: (0, 3)
+  Pontuação: 1
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 4:
+  Percepção: sujo
+  Ação: limpar
+  Direção: cima
+  Posição: (0, 3)
+  Pontuação: 2
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 5:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: baixo
+  Posição: (1, 3)
+  Pontuação: 1
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 6:
+  Percepção: sujo
+  Ação: limpar
+  Direção: cima
+  Posição: (0, 3)
+  Pontuação: 2
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 7:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: direita
+  Posição: (0, 4)
+  Pontuação: 1
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 8:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: baixo
+  Posição: (1, 4)
+  Pontuação: 0
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 9:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: cima
+  Posição: (0, 4)
+  Pontuação: -1
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 10:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: baixo
+  Posição: (1, 4)
+  Pontuação: -2
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 11:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: cima
+  Posição: (0, 4)
+  Pontuação: -3
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 12:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: baixo
+  Posição: (1, 4)
+  Pontuação: -4
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 13:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: baixo
+  Posição: (2, 4)
+  Pontuação: -5
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 14:
+  Percepção: sujo
+  Ação: limpar
+  Direção: baixo
+  Posição: (3, 4)
+  Pontuação: -4
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 15:
+  Percepção: obst
+  Ação: obst
+  Direção: esquerda
+  Posição: (3, 3)
+  Pontuação: -4
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 16:
+  Percepção: sujo
+  Ação: limpar
+  Direção: direita
+  Posição: (3, 4)
+  Pontuação: -3
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 17:
+  Percepção: obst
+  Ação: obst
+  Direção: baixo
+  Posição: (4, 4)
+  Pontuação: -3
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 18:
+  Percepção: sujo
+  Ação: limpar
+  Direção: cima
+  Posição: (3, 4)
+  Pontuação: -2
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 19:
+  Percepção: obst
+  Ação: obst
+  Direção: direita
+  Posição: (3, 4)
+  Pontuação: -2
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 20:
+  Percepção: obst
+  Ação: obst
+  Direção: cima
+  Posição: (2, 4)
+  Pontuação: -2
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 21:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: esquerda
+  Posição: (2, 3)
+  Pontuação: -3
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 22:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: baixo
+  Posição: (3, 3)
+  Pontuação: -4
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 23:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: baixo
+  Posição: (4, 3)
+  Pontuação: -5
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 24:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: baixo
+  Posição: (4, 3)
+  Pontuação: -6
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 25:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: cima
+  Posição: (3, 3)
+  Pontuação: -7
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 26:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: baixo
+  Posição: (4, 3)
+  Pontuação: -8
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 27:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: direita
+  Posição: (4, 4)
+  Pontuação: -9
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 28:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: direita
+  Posição: (4, 4)
+  Pontuação: -10
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 29:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: cima
+  Posição: (3, 4)
+  Pontuação: -11
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 30:
+  Percepção: obst
+  Ação: obst
+  Direção: esquerda
+  Posição: (3, 3)
+  Pontuação: -11
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 31:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: cima
+  Posição: (2, 3)
+  Pontuação: -12
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 32:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: baixo
+  Posição: (3, 3)
+  Pontuação: -13
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 33:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: cima
+  Posição: (2, 3)
+  Pontuação: -14
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 34:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: direita
+  Posição: (2, 4)
+  Pontuação: -15
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 35:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: direita
+  Posição: (2, 4)
+  Pontuação: -16
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 36:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: cima
+  Posição: (1, 4)
+  Pontuação: -17
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 37:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: esquerda
+  Posição: (1, 3)
+  Pontuação: -18
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 38:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: direita
+  Posição: (1, 4)
+  Pontuação: -19
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 39:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: esquerda
+  Posição: (1, 3)
+  Pontuação: -20
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 40:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: esquerda
+  Posição: (1, 2)
+  Pontuação: -21
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 41:
+  Percepção: obst
+  Ação: obst
+  Direção: cima
+  Posição: (0, 2)
+  Pontuação: -21
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 42:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: esquerda
+  Posição: (0, 1)
+  Pontuação: -22
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 43:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: esquerda
+  Posição: (0, 0)
+  Pontuação: -23
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 44:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: esquerda
+  Posição: (0, 0)
+  Pontuação: -24
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 45:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: cima
+  Posição: (0, 0)
+  Pontuação: -25
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 46:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: cima
+  Posição: (0, 0)
+  Pontuação: -26
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 47:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: direita
+  Posição: (0, 1)
+  Pontuação: -27
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 48:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: direita
+  Posição: (0, 2)
+  Pontuação: -28
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 49:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: baixo
+  Posição: (1, 2)
+  Pontuação: -29
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 50:
+  Percepção: obst
+  Ação: obst
+  Direção: cima
+  Posição: (0, 2)
+  Pontuação: -29
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 51:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: direita
+  Posição: (0, 3)
+  Pontuação: -30
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 52:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: baixo
+  Posição: (1, 3)
+  Pontuação: -31
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 53:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: cima
+  Posição: (0, 3)
+  Pontuação: -32
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 54:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: direita
+  Posição: (0, 4)
+  Pontuação: -33
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 55:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: esquerda
+  Posição: (0, 3)
+  Pontuação: -34
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 56:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: direita
+  Posição: (0, 4)
+  Pontuação: -35
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 57:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: cima
+  Posição: (0, 4)
+  Pontuação: -36
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 58:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: baixo
+  Posição: (1, 4)
+  Pontuação: -37
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 59:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: esquerda
+  Posição: (1, 3)
+  Pontuação: -38
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 60:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: esquerda
+  Posição: (1, 2)
+  Pontuação: -39
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 61:
+  Percepção: obst
+  Ação: obst
+  Direção: direita
+  Posição: (1, 3)
+  Pontuação: -39
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 62:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: baixo
+  Posição: (2, 3)
+  Pontuação: -40
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 63:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: cima
+  Posição: (1, 3)
+  Pontuação: -41
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 64:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: cima
+  Posição: (0, 3)
+  Pontuação: -42
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 65:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: esquerda
+  Posição: (0, 2)
+  Pontuação: -43
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 66:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: cima
+  Posição: (0, 2)
+  Pontuação: -44
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 67:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: baixo
+  Posição: (1, 2)
+  Pontuação: -45
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 68:
+  Percepção: obst
+  Ação: obst
+  Direção: direita
+  Posição: (1, 3)
+  Pontuação: -45
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 69:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: esquerda
+  Posição: (1, 2)
+  Pontuação: -46
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 70:
+  Percepção: obst
+  Ação: obst
+  Direção: direita
+  Posição: (1, 3)
+  Pontuação: -46
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 71:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: baixo
+  Posição: (2, 3)
+  Pontuação: -47
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 72:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: direita
+  Posição: (2, 4)
+  Pontuação: -48
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 73:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: esquerda
+  Posição: (2, 3)
+  Pontuação: -49
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 74:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: baixo
+  Posição: (3, 3)
+  Pontuação: -50
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 75:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: cima
+  Posição: (2, 3)
+  Pontuação: -51
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 76:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: direita
+  Posição: (2, 4)
+  Pontuação: -52
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 77:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: baixo
+  Posição: (3, 4)
+  Pontuação: -53
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 78:
+  Percepção: obst
+  Ação: obst
+  Direção: esquerda
+  Posição: (3, 3)
+  Pontuação: -53
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 79:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: baixo
+  Posição: (4, 3)
+  Pontuação: -54
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 80:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: cima
+  Posição: (3, 3)
+  Pontuação: -55
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 81:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: baixo
+  Posição: (4, 3)
+  Pontuação: -56
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 82:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: cima
+  Posição: (3, 3)
+  Pontuação: -57
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 83:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: cima
+  Posição: (2, 3)
+  Pontuação: -58
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 84:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: baixo
+  Posição: (3, 3)
+  Pontuação: -59
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 85:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: baixo
+  Posição: (4, 3)
+  Pontuação: -60
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 86:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: cima
+  Posição: (3, 3)
+  Pontuação: -61
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 87:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: esquerda
+  Posição: (3, 2)
+  Pontuação: -62
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 88:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: direita
+  Posição: (3, 3)
+  Pontuação: -63
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 89:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: direita
+  Posição: (3, 4)
+  Pontuação: -64
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 90:
+  Percepção: obst
+  Ação: obst
+  Direção: esquerda
+  Posição: (3, 3)
+  Pontuação: -64
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 91:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: esquerda
+  Posição: (3, 2)
+  Pontuação: -65
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 92:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: cima
+  Posição: (2, 2)
+  Pontuação: -66
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 93:
+  Percepção: sujo
+  Ação: limpar
+  Direção: baixo
+  Posição: (3, 2)
+  Pontuação: -65
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 94:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: esquerda
+  Posição: (3, 1)
+  Pontuação: -66
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 95:
+  Percepção: sujo
+  Ação: limpar
+  Direção: esquerda
+  Posição: (3, 0)
+  Pontuação: -65
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 96:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: direita
+  Posição: (3, 1)
+  Pontuação: -66
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 97:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: cima
+  Posição: (2, 1)
+  Pontuação: -67
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 98:
+  Percepção: obst
+  Ação: obst
+  Direção: cima
+  Posição: (1, 1)
+  Pontuação: -67
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 99:
+  Percepção: sujo
+  Ação: limpar
+  Direção: direita
+  Posição: (1, 2)
+  Pontuação: -66
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
+Passo 100:
+  Percepção: obst
+  Ação: obst
+  Direção: direita
+  Posição: (1, 3)
+  Pontuação: -66
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'limpo'], ['sujo', 'obst', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'obst'], ['sujo', 'obst', 'sujo', 'limpo', 'limpo']]
+
