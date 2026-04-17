@@ -1,0 +1,1771 @@
+=== Simulação do Agente de Limpeza ===
+
+Informações Iniciais:
+Posição inicial: (0, 0)
+Estado inicial do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+Pontuação inicial: 0
+
+Passo 1:
+  Percepção: sujo
+  Ação: limpar
+  Direção: cima
+  Posição: (0, 0)
+  Pontuação: 1
+  Danos: 1
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 2:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: cima
+  Posição: (0, 0)
+  Pontuação: 0
+  Danos: 2
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 3:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: cima
+  Posição: (0, 0)
+  Pontuação: -1
+  Danos: 3
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 4:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: cima
+  Posição: (0, 0)
+  Pontuação: -2
+  Danos: 4
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 5:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: cima
+  Posição: (0, 0)
+  Pontuação: -3
+  Danos: 5
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 6:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: cima
+  Posição: (0, 0)
+  Pontuação: -4
+  Danos: 6
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 7:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: cima
+  Posição: (0, 0)
+  Pontuação: -5
+  Danos: 7
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 8:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: baixo
+  Posição: (1, 0)
+  Pontuação: -6
+  Danos: 7
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 9:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: esquerda
+  Posição: (1, 0)
+  Pontuação: -7
+  Danos: 8
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 10:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: esquerda
+  Posição: (1, 0)
+  Pontuação: -8
+  Danos: 9
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 11:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: esquerda
+  Posição: (1, 0)
+  Pontuação: -9
+  Danos: 10
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 12:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: direita
+  Posição: (1, 1)
+  Pontuação: -10
+  Danos: 10
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 13:
+  Percepção: sujo
+  Ação: limpar
+  Direção: baixo
+  Posição: (2, 1)
+  Pontuação: -9
+  Danos: 10
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 14:
+  Percepção: sujo
+  Ação: limpar
+  Direção: direita
+  Posição: (2, 2)
+  Pontuação: -8
+  Danos: 10
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 15:
+  Percepção: sujo
+  Ação: limpar
+  Direção: baixo
+  Posição: (3, 2)
+  Pontuação: -7
+  Danos: 10
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 16:
+  Percepção: obst
+  Ação: obst
+  Direção: baixo
+  Posição: (4, 2)
+  Pontuação: -7
+  Danos: 11
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 17:
+  Percepção: sujo
+  Ação: limpar
+  Direção: cima
+  Posição: (3, 2)
+  Pontuação: -6
+  Danos: 11
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 18:
+  Percepção: obst
+  Ação: obst
+  Direção: esquerda
+  Posição: (3, 1)
+  Pontuação: -6
+  Danos: 12
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 19:
+  Percepção: sujo
+  Ação: limpar
+  Direção: esquerda
+  Posição: (3, 0)
+  Pontuação: -5
+  Danos: 12
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 20:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: baixo
+  Posição: (4, 0)
+  Pontuação: -6
+  Danos: 12
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 21:
+  Percepção: obst
+  Ação: obst
+  Direção: direita
+  Posição: (4, 1)
+  Pontuação: -6
+  Danos: 13
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 22:
+  Percepção: obst
+  Ação: obst
+  Direção: direita
+  Posição: (4, 2)
+  Pontuação: -6
+  Danos: 14
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 23:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: baixo
+  Posição: (4, 2)
+  Pontuação: -7
+  Danos: 15
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 24:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: direita
+  Posição: (4, 3)
+  Pontuação: -8
+  Danos: 15
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 25:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: baixo
+  Posição: (4, 3)
+  Pontuação: -9
+  Danos: 16
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 26:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: cima
+  Posição: (3, 3)
+  Pontuação: -10
+  Danos: 16
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 27:
+  Percepção: sujo
+  Ação: limpar
+  Direção: direita
+  Posição: (3, 4)
+  Pontuação: -9
+  Danos: 16
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 28:
+  Percepção: obst
+  Ação: obst
+  Direção: cima
+  Posição: (2, 4)
+  Pontuação: -9
+  Danos: 17
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 29:
+  Percepção: sujo
+  Ação: limpar
+  Direção: baixo
+  Posição: (3, 4)
+  Pontuação: -8
+  Danos: 17
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 30:
+  Percepção: obst
+  Ação: obst
+  Direção: esquerda
+  Posição: (3, 3)
+  Pontuação: -8
+  Danos: 18
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 31:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: esquerda
+  Posição: (3, 2)
+  Pontuação: -9
+  Danos: 18
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 32:
+  Percepção: obst
+  Ação: obst
+  Direção: cima
+  Posição: (2, 2)
+  Pontuação: -9
+  Danos: 19
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 33:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: direita
+  Posição: (2, 3)
+  Pontuação: -10
+  Danos: 19
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 34:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: esquerda
+  Posição: (2, 2)
+  Pontuação: -11
+  Danos: 19
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 35:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: direita
+  Posição: (2, 3)
+  Pontuação: -12
+  Danos: 19
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 36:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: baixo
+  Posição: (3, 3)
+  Pontuação: -13
+  Danos: 19
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 37:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: esquerda
+  Posição: (3, 2)
+  Pontuação: -14
+  Danos: 19
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 38:
+  Percepção: obst
+  Ação: obst
+  Direção: direita
+  Posição: (3, 3)
+  Pontuação: -14
+  Danos: 20
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 39:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: cima
+  Posição: (2, 3)
+  Pontuação: -15
+  Danos: 20
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 40:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: esquerda
+  Posição: (2, 2)
+  Pontuação: -16
+  Danos: 20
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 41:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: baixo
+  Posição: (3, 2)
+  Pontuação: -17
+  Danos: 20
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 42:
+  Percepção: obst
+  Ação: obst
+  Direção: esquerda
+  Posição: (3, 1)
+  Pontuação: -17
+  Danos: 21
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 43:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: direita
+  Posição: (3, 2)
+  Pontuação: -18
+  Danos: 21
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 44:
+  Percepção: obst
+  Ação: obst
+  Direção: direita
+  Posição: (3, 3)
+  Pontuação: -18
+  Danos: 22
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 45:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: direita
+  Posição: (3, 4)
+  Pontuação: -19
+  Danos: 22
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 46:
+  Percepção: obst
+  Ação: obst
+  Direção: cima
+  Posição: (2, 4)
+  Pontuação: -19
+  Danos: 23
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 47:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: baixo
+  Posição: (3, 4)
+  Pontuação: -20
+  Danos: 23
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 48:
+  Percepção: obst
+  Ação: obst
+  Direção: esquerda
+  Posição: (3, 3)
+  Pontuação: -20
+  Danos: 24
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 49:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: esquerda
+  Posição: (3, 2)
+  Pontuação: -21
+  Danos: 24
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 50:
+  Percepção: obst
+  Ação: obst
+  Direção: direita
+  Posição: (3, 3)
+  Pontuação: -21
+  Danos: 25
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 51:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: direita
+  Posição: (3, 4)
+  Pontuação: -22
+  Danos: 25
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 52:
+  Percepção: obst
+  Ação: obst
+  Direção: cima
+  Posição: (2, 4)
+  Pontuação: -22
+  Danos: 26
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 53:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: cima
+  Posição: (1, 4)
+  Pontuação: -23
+  Danos: 26
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 54:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: esquerda
+  Posição: (1, 3)
+  Pontuação: -24
+  Danos: 26
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 55:
+  Percepção: obst
+  Ação: obst
+  Direção: baixo
+  Posição: (2, 3)
+  Pontuação: -24
+  Danos: 27
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 56:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: cima
+  Posição: (1, 3)
+  Pontuação: -25
+  Danos: 27
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 57:
+  Percepção: obst
+  Ação: obst
+  Direção: baixo
+  Posição: (2, 3)
+  Pontuação: -25
+  Danos: 28
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 58:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: esquerda
+  Posição: (2, 2)
+  Pontuação: -26
+  Danos: 28
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 59:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: baixo
+  Posição: (3, 2)
+  Pontuação: -27
+  Danos: 28
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 60:
+  Percepção: obst
+  Ação: obst
+  Direção: cima
+  Posição: (2, 2)
+  Pontuação: -27
+  Danos: 29
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 61:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: baixo
+  Posição: (3, 2)
+  Pontuação: -28
+  Danos: 29
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 62:
+  Percepção: obst
+  Ação: obst
+  Direção: esquerda
+  Posição: (3, 1)
+  Pontuação: -28
+  Danos: 30
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 63:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: cima
+  Posição: (2, 1)
+  Pontuação: -29
+  Danos: 30
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 64:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: esquerda
+  Posição: (2, 0)
+  Pontuação: -30
+  Danos: 30
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 65:
+  Percepção: sujo
+  Ação: limpar
+  Direção: baixo
+  Posição: (3, 0)
+  Pontuação: -29
+  Danos: 30
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 66:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: cima
+  Posição: (2, 0)
+  Pontuação: -30
+  Danos: 30
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 67:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: direita
+  Posição: (2, 1)
+  Pontuação: -31
+  Danos: 30
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 68:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: baixo
+  Posição: (3, 1)
+  Pontuação: -32
+  Danos: 30
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 69:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: baixo
+  Posição: (4, 1)
+  Pontuação: -33
+  Danos: 30
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 70:
+  Percepção: obst
+  Ação: obst
+  Direção: esquerda
+  Posição: (4, 0)
+  Pontuação: -33
+  Danos: 31
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 71:
+  Percepção: obst
+  Ação: obst
+  Direção: esquerda
+  Posição: (4, 0)
+  Pontuação: -33
+  Danos: 33
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 72:
+  Percepção: obst
+  Ação: obst
+  Direção: baixo
+  Posição: (4, 0)
+  Pontuação: -33
+  Danos: 35
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 73:
+  Percepção: obst
+  Ação: obst
+  Direção: cima
+  Posição: (3, 0)
+  Pontuação: -33
+  Danos: 36
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 74:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: esquerda
+  Posição: (3, 0)
+  Pontuação: -34
+  Danos: 37
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 75:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: esquerda
+  Posição: (3, 0)
+  Pontuação: -35
+  Danos: 38
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 76:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: esquerda
+  Posição: (3, 0)
+  Pontuação: -36
+  Danos: 39
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 77:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: cima
+  Posição: (2, 0)
+  Pontuação: -37
+  Danos: 39
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 78:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: cima
+  Posição: (1, 0)
+  Pontuação: -38
+  Danos: 39
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 79:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: direita
+  Posição: (1, 1)
+  Pontuação: -39
+  Danos: 39
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 80:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: direita
+  Posição: (1, 2)
+  Pontuação: -40
+  Danos: 39
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 81:
+  Percepção: obst
+  Ação: obst
+  Direção: direita
+  Posição: (1, 3)
+  Pontuação: -40
+  Danos: 40
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 82:
+  Percepção: obst
+  Ação: obst
+  Direção: cima
+  Posição: (0, 3)
+  Pontuação: -40
+  Danos: 41
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 83:
+  Percepção: sujo
+  Ação: limpar
+  Direção: baixo
+  Posição: (1, 3)
+  Pontuação: -39
+  Danos: 41
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 84:
+  Percepção: obst
+  Ação: obst
+  Direção: cima
+  Posição: (0, 3)
+  Pontuação: -39
+  Danos: 42
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 85:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: cima
+  Posição: (0, 3)
+  Pontuação: -40
+  Danos: 43
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 86:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: cima
+  Posição: (0, 3)
+  Pontuação: -41
+  Danos: 44
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 87:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: direita
+  Posição: (0, 4)
+  Pontuação: -42
+  Danos: 44
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 88:
+  Percepção: sujo
+  Ação: limpar
+  Direção: baixo
+  Posição: (1, 4)
+  Pontuação: -41
+  Danos: 44
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 89:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: esquerda
+  Posição: (1, 3)
+  Pontuação: -42
+  Danos: 44
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 90:
+  Percepção: obst
+  Ação: obst
+  Direção: esquerda
+  Posição: (1, 2)
+  Pontuação: -42
+  Danos: 45
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 91:
+  Percepção: obst
+  Ação: obst
+  Direção: baixo
+  Posição: (2, 2)
+  Pontuação: -42
+  Danos: 46
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 92:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: esquerda
+  Posição: (2, 1)
+  Pontuação: -43
+  Danos: 46
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 93:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: direita
+  Posição: (2, 2)
+  Pontuação: -44
+  Danos: 46
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 94:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: baixo
+  Posição: (3, 2)
+  Pontuação: -45
+  Danos: 46
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 95:
+  Percepção: obst
+  Ação: obst
+  Direção: esquerda
+  Posição: (3, 1)
+  Pontuação: -45
+  Danos: 47
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 96:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: cima
+  Posição: (2, 1)
+  Pontuação: -46
+  Danos: 47
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 97:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: baixo
+  Posição: (3, 1)
+  Pontuação: -47
+  Danos: 47
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 98:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: baixo
+  Posição: (4, 1)
+  Pontuação: -48
+  Danos: 47
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 99:
+  Percepção: obst
+  Ação: obst
+  Direção: direita
+  Posição: (4, 2)
+  Pontuação: -48
+  Danos: 48
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 100:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: baixo
+  Posição: (4, 2)
+  Pontuação: -49
+  Danos: 49
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 101:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: cima
+  Posição: (3, 2)
+  Pontuação: -50
+  Danos: 49
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 102:
+  Percepção: obst
+  Ação: obst
+  Direção: direita
+  Posição: (3, 3)
+  Pontuação: -50
+  Danos: 50
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 103:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: direita
+  Posição: (3, 4)
+  Pontuação: -51
+  Danos: 50
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 104:
+  Percepção: obst
+  Ação: obst
+  Direção: esquerda
+  Posição: (3, 3)
+  Pontuação: -51
+  Danos: 51
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 105:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: esquerda
+  Posição: (3, 2)
+  Pontuação: -52
+  Danos: 51
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 106:
+  Percepção: obst
+  Ação: obst
+  Direção: esquerda
+  Posição: (3, 1)
+  Pontuação: -52
+  Danos: 52
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 107:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: baixo
+  Posição: (4, 1)
+  Pontuação: -53
+  Danos: 52
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 108:
+  Percepção: obst
+  Ação: obst
+  Direção: direita
+  Posição: (4, 2)
+  Pontuação: -53
+  Danos: 53
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 109:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: cima
+  Posição: (3, 2)
+  Pontuação: -54
+  Danos: 53
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 110:
+  Percepção: obst
+  Ação: obst
+  Direção: esquerda
+  Posição: (3, 1)
+  Pontuação: -54
+  Danos: 54
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 111:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: direita
+  Posição: (3, 2)
+  Pontuação: -55
+  Danos: 54
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 112:
+  Percepção: obst
+  Ação: obst
+  Direção: direita
+  Posição: (3, 3)
+  Pontuação: -55
+  Danos: 55
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 113:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: direita
+  Posição: (3, 4)
+  Pontuação: -56
+  Danos: 55
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 114:
+  Percepção: obst
+  Ação: obst
+  Direção: esquerda
+  Posição: (3, 3)
+  Pontuação: -56
+  Danos: 56
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 115:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: esquerda
+  Posição: (3, 2)
+  Pontuação: -57
+  Danos: 56
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 116:
+  Percepção: obst
+  Ação: obst
+  Direção: direita
+  Posição: (3, 3)
+  Pontuação: -57
+  Danos: 57
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 117:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: direita
+  Posição: (3, 4)
+  Pontuação: -58
+  Danos: 57
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 118:
+  Percepção: obst
+  Ação: obst
+  Direção: baixo
+  Posição: (4, 4)
+  Pontuação: -58
+  Danos: 58
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 119:
+  Percepção: sujo
+  Ação: limpar
+  Direção: baixo
+  Posição: (4, 4)
+  Pontuação: -57
+  Danos: 59
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 120:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: direita
+  Posição: (4, 4)
+  Pontuação: -58
+  Danos: 60
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 121:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: cima
+  Posição: (3, 4)
+  Pontuação: -59
+  Danos: 60
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 122:
+  Percepção: obst
+  Ação: obst
+  Direção: direita
+  Posição: (3, 4)
+  Pontuação: -59
+  Danos: 62
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 123:
+  Percepção: obst
+  Ação: obst
+  Direção: esquerda
+  Posição: (3, 3)
+  Pontuação: -59
+  Danos: 63
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 124:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: cima
+  Posição: (2, 3)
+  Pontuação: -60
+  Danos: 63
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 125:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: baixo
+  Posição: (3, 3)
+  Pontuação: -61
+  Danos: 63
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 126:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: direita
+  Posição: (3, 4)
+  Pontuação: -62
+  Danos: 63
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 127:
+  Percepção: obst
+  Ação: obst
+  Direção: esquerda
+  Posição: (3, 3)
+  Pontuação: -62
+  Danos: 64
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 128:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: esquerda
+  Posição: (3, 2)
+  Pontuação: -63
+  Danos: 64
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 129:
+  Percepção: obst
+  Ação: obst
+  Direção: esquerda
+  Posição: (3, 1)
+  Pontuação: -63
+  Danos: 65
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 130:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: baixo
+  Posição: (4, 1)
+  Pontuação: -64
+  Danos: 65
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 131:
+  Percepção: obst
+  Ação: obst
+  Direção: baixo
+  Posição: (4, 1)
+  Pontuação: -64
+  Danos: 67
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 132:
+  Percepção: obst
+  Ação: obst
+  Direção: esquerda
+  Posição: (4, 0)
+  Pontuação: -64
+  Danos: 68
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 133:
+  Percepção: obst
+  Ação: obst
+  Direção: direita
+  Posição: (4, 1)
+  Pontuação: -64
+  Danos: 69
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 134:
+  Percepção: obst
+  Ação: obst
+  Direção: esquerda
+  Posição: (4, 0)
+  Pontuação: -64
+  Danos: 70
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 135:
+  Percepção: obst
+  Ação: obst
+  Direção: direita
+  Posição: (4, 1)
+  Pontuação: -64
+  Danos: 71
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 136:
+  Percepção: obst
+  Ação: obst
+  Direção: direita
+  Posição: (4, 2)
+  Pontuação: -64
+  Danos: 72
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 137:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: cima
+  Posição: (3, 2)
+  Pontuação: -65
+  Danos: 72
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 138:
+  Percepção: obst
+  Ação: obst
+  Direção: direita
+  Posição: (3, 3)
+  Pontuação: -65
+  Danos: 73
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 139:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: direita
+  Posição: (3, 4)
+  Pontuação: -66
+  Danos: 73
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 140:
+  Percepção: obst
+  Ação: obst
+  Direção: direita
+  Posição: (3, 4)
+  Pontuação: -66
+  Danos: 75
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 141:
+  Percepção: obst
+  Ação: obst
+  Direção: esquerda
+  Posição: (3, 3)
+  Pontuação: -66
+  Danos: 76
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 142:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: baixo
+  Posição: (4, 3)
+  Pontuação: -67
+  Danos: 76
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 143:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: cima
+  Posição: (3, 3)
+  Pontuação: -68
+  Danos: 76
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 144:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: direita
+  Posição: (3, 4)
+  Pontuação: -69
+  Danos: 76
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 145:
+  Percepção: obst
+  Ação: obst
+  Direção: baixo
+  Posição: (4, 4)
+  Pontuação: -69
+  Danos: 77
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 146:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: baixo
+  Posição: (4, 4)
+  Pontuação: -70
+  Danos: 78
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 147:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: cima
+  Posição: (3, 4)
+  Pontuação: -71
+  Danos: 78
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 148:
+  Percepção: obst
+  Ação: obst
+  Direção: direita
+  Posição: (3, 4)
+  Pontuação: -71
+  Danos: 80
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 149:
+  Percepção: obst
+  Ação: obst
+  Direção: cima
+  Posição: (2, 4)
+  Pontuação: -71
+  Danos: 81
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 150:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: baixo
+  Posição: (3, 4)
+  Pontuação: -72
+  Danos: 81
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 151:
+  Percepção: obst
+  Ação: obst
+  Direção: direita
+  Posição: (3, 4)
+  Pontuação: -72
+  Danos: 83
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 152:
+  Percepção: obst
+  Ação: obst
+  Direção: esquerda
+  Posição: (3, 3)
+  Pontuação: -72
+  Danos: 84
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 153:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: direita
+  Posição: (3, 4)
+  Pontuação: -73
+  Danos: 84
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 154:
+  Percepção: obst
+  Ação: obst
+  Direção: cima
+  Posição: (2, 4)
+  Pontuação: -73
+  Danos: 85
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 155:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: cima
+  Posição: (1, 4)
+  Pontuação: -74
+  Danos: 85
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 156:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: baixo
+  Posição: (2, 4)
+  Pontuação: -75
+  Danos: 85
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 157:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: cima
+  Posição: (1, 4)
+  Pontuação: -76
+  Danos: 85
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 158:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: baixo
+  Posição: (2, 4)
+  Pontuação: -77
+  Danos: 85
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 159:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: direita
+  Posição: (2, 4)
+  Pontuação: -78
+  Danos: 86
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 160:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: cima
+  Posição: (1, 4)
+  Pontuação: -79
+  Danos: 86
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 161:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: direita
+  Posição: (1, 4)
+  Pontuação: -80
+  Danos: 87
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 162:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: baixo
+  Posição: (2, 4)
+  Pontuação: -81
+  Danos: 87
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 163:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: direita
+  Posição: (2, 4)
+  Pontuação: -82
+  Danos: 88
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 164:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: esquerda
+  Posição: (2, 3)
+  Pontuação: -83
+  Danos: 88
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 165:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: baixo
+  Posição: (3, 3)
+  Pontuação: -84
+  Danos: 88
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 166:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: baixo
+  Posição: (4, 3)
+  Pontuação: -85
+  Danos: 88
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 167:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: baixo
+  Posição: (4, 3)
+  Pontuação: -86
+  Danos: 89
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 168:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: cima
+  Posição: (3, 3)
+  Pontuação: -87
+  Danos: 89
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 169:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: direita
+  Posição: (3, 4)
+  Pontuação: -88
+  Danos: 89
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 170:
+  Percepção: obst
+  Ação: obst
+  Direção: cima
+  Posição: (2, 4)
+  Pontuação: -88
+  Danos: 90
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 171:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: cima
+  Posição: (1, 4)
+  Pontuação: -89
+  Danos: 90
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 172:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: cima
+  Posição: (0, 4)
+  Pontuação: -90
+  Danos: 90
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 173:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: esquerda
+  Posição: (0, 3)
+  Pontuação: -91
+  Danos: 90
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 174:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: direita
+  Posição: (0, 4)
+  Pontuação: -92
+  Danos: 90
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 175:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: direita
+  Posição: (0, 4)
+  Pontuação: -93
+  Danos: 91
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 176:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: cima
+  Posição: (0, 4)
+  Pontuação: -94
+  Danos: 92
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 177:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: cima
+  Posição: (0, 4)
+  Pontuação: -95
+  Danos: 93
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 178:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: direita
+  Posição: (0, 4)
+  Pontuação: -96
+  Danos: 94
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 179:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: direita
+  Posição: (0, 4)
+  Pontuação: -97
+  Danos: 95
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 180:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: cima
+  Posição: (0, 4)
+  Pontuação: -98
+  Danos: 96
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 181:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: baixo
+  Posição: (1, 4)
+  Pontuação: -99
+  Danos: 96
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 182:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: cima
+  Posição: (0, 4)
+  Pontuação: -100
+  Danos: 96
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 183:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: esquerda
+  Posição: (0, 3)
+  Pontuação: -101
+  Danos: 96
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 184:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: cima
+  Posição: (0, 3)
+  Pontuação: -102
+  Danos: 97
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 185:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: direita
+  Posição: (0, 4)
+  Pontuação: -103
+  Danos: 97
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 186:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: cima
+  Posição: (0, 4)
+  Pontuação: -104
+  Danos: 98
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 187:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: direita
+  Posição: (0, 4)
+  Pontuação: -105
+  Danos: 99
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 188:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: cima
+  Posição: (0, 4)
+  Pontuação: -106
+  Danos: 100
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 189:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: baixo
+  Posição: (1, 4)
+  Pontuação: -107
+  Danos: 100
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 190:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: direita
+  Posição: (1, 4)
+  Pontuação: -108
+  Danos: 101
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 191:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: cima
+  Posição: (0, 4)
+  Pontuação: -109
+  Danos: 101
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 192:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: esquerda
+  Posição: (0, 3)
+  Pontuação: -110
+  Danos: 101
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 193:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: esquerda
+  Posição: (0, 2)
+  Pontuação: -111
+  Danos: 101
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 194:
+  Percepção: sujo
+  Ação: limpar
+  Direção: cima
+  Posição: (0, 2)
+  Pontuação: -110
+  Danos: 102
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 195:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: esquerda
+  Posição: (0, 1)
+  Pontuação: -111
+  Danos: 102
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 196:
+  Percepção: sujo
+  Ação: limpar
+  Direção: cima
+  Posição: (0, 1)
+  Pontuação: -110
+  Danos: 103
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst', 'limpo'], ['limpo', 'limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'limpo', 'obst'], ['obst', 'obst', 'limpo', 'limpo', 'limpo']]
+

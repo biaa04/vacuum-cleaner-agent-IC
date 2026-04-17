@@ -8,378 +8,387 @@ Pontuação inicial: 0
 Passo 1:
   Percepção: sujo
   Ação: limpar
-  Direção: direita
-  Posição: (0, 1)
+  Direção: esquerda
+  Posição: (0, 0)
   Pontuação: 1
-  Danos: 0
+  Danos: 1
   Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst'], ['limpo', 'limpo', 'limpo', 'limpo'], ['obst', 'limpo', 'limpo', 'limpo']]
 
 Passo 2:
-  Percepção: sujo
-  Ação: limpar
-  Direção: baixo
-  Posição: (1, 1)
-  Pontuação: 2
-  Danos: 0
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: esquerda
+  Posição: (0, 0)
+  Pontuação: 0
+  Danos: 2
   Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst'], ['limpo', 'limpo', 'limpo', 'limpo'], ['obst', 'limpo', 'limpo', 'limpo']]
 
 Passo 3:
-  Percepção: sujo
-  Ação: limpar
-  Direção: baixo
-  Posição: (2, 1)
-  Pontuação: 3
-  Danos: 0
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: cima
+  Posição: (0, 0)
+  Pontuação: -1
+  Danos: 3
   Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst'], ['limpo', 'limpo', 'limpo', 'limpo'], ['obst', 'limpo', 'limpo', 'limpo']]
 
 Passo 4:
-  Percepção: sujo
-  Ação: limpar
+  Percepção: limpo
+  Ação: Ambiente Limpo
   Direção: direita
-  Posição: (2, 2)
-  Pontuação: 4
-  Danos: 0
+  Posição: (0, 1)
+  Pontuação: -2
+  Danos: 3
   Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst'], ['limpo', 'limpo', 'limpo', 'limpo'], ['obst', 'limpo', 'limpo', 'limpo']]
 
 Passo 5:
   Percepção: sujo
   Ação: limpar
-  Direção: direita
-  Posição: (2, 3)
-  Pontuação: 5
-  Danos: 0
+  Direção: cima
+  Posição: (0, 1)
+  Pontuação: -1
+  Danos: 4
   Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst'], ['limpo', 'limpo', 'limpo', 'limpo'], ['obst', 'limpo', 'limpo', 'limpo']]
 
 Passo 6:
   Percepção: limpo
   Ação: Ambiente Limpo
   Direção: cima
-  Posição: (1, 3)
-  Pontuação: 4
-  Danos: 0
+  Posição: (0, 1)
+  Pontuação: -2
+  Danos: 5
   Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst'], ['limpo', 'limpo', 'limpo', 'limpo'], ['obst', 'limpo', 'limpo', 'limpo']]
 
 Passo 7:
-  Percepção: obst
-  Ação: obst
+  Percepção: limpo
+  Ação: Ambiente Limpo
   Direção: direita
-  Posição: (1, 3)
-  Pontuação: 4
-  Danos: 2
+  Posição: (0, 2)
+  Pontuação: -3
+  Danos: 5
   Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst'], ['limpo', 'limpo', 'limpo', 'limpo'], ['obst', 'limpo', 'limpo', 'limpo']]
 
 Passo 8:
-  Percepção: obst
-  Ação: obst
-  Direção: cima
-  Posição: (0, 3)
-  Pontuação: 4
-  Danos: 3
-  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst'], ['limpo', 'limpo', 'limpo', 'limpo'], ['obst', 'limpo', 'limpo', 'limpo']]
-
-Passo 9:
   Percepção: sujo
   Ação: limpar
   Direção: cima
-  Posição: (0, 3)
-  Pontuação: 5
-  Danos: 4
+  Posição: (0, 2)
+  Pontuação: -2
+  Danos: 6
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst'], ['limpo', 'limpo', 'limpo', 'limpo'], ['obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 9:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: cima
+  Posição: (0, 2)
+  Pontuação: -3
+  Danos: 7
   Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst'], ['limpo', 'limpo', 'limpo', 'limpo'], ['obst', 'limpo', 'limpo', 'limpo']]
 
 Passo 10:
   Percepção: limpo
   Ação: Ambiente Limpo
-  Direção: cima
+  Direção: direita
   Posição: (0, 3)
-  Pontuação: 4
-  Danos: 5
+  Pontuação: -4
+  Danos: 7
   Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst'], ['limpo', 'limpo', 'limpo', 'limpo'], ['obst', 'limpo', 'limpo', 'limpo']]
 
 Passo 11:
-  Percepção: limpo
-  Ação: Ambiente Limpo
-  Direção: esquerda
-  Posição: (0, 2)
-  Pontuação: 3
-  Danos: 5
+  Percepção: sujo
+  Ação: limpar
+  Direção: direita
+  Posição: (0, 3)
+  Pontuação: -3
+  Danos: 8
   Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst'], ['limpo', 'limpo', 'limpo', 'limpo'], ['obst', 'limpo', 'limpo', 'limpo']]
 
 Passo 12:
-  Percepção: sujo
-  Ação: limpar
-  Direção: baixo
-  Posição: (1, 2)
-  Pontuação: 4
-  Danos: 5
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: cima
+  Posição: (0, 3)
+  Pontuação: -4
+  Danos: 9
   Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst'], ['limpo', 'limpo', 'limpo', 'limpo'], ['obst', 'limpo', 'limpo', 'limpo']]
 
 Passo 13:
-  Percepção: obst
-  Ação: obst
-  Direção: baixo
-  Posição: (2, 2)
-  Pontuação: 4
-  Danos: 6
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: cima
+  Posição: (0, 3)
+  Pontuação: -5
+  Danos: 10
   Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst'], ['limpo', 'limpo', 'limpo', 'limpo'], ['obst', 'limpo', 'limpo', 'limpo']]
 
 Passo 14:
   Percepção: limpo
   Ação: Ambiente Limpo
-  Direção: baixo
-  Posição: (3, 2)
-  Pontuação: 3
-  Danos: 6
+  Direção: direita
+  Posição: (0, 3)
+  Pontuação: -6
+  Danos: 11
   Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst'], ['limpo', 'limpo', 'limpo', 'limpo'], ['obst', 'limpo', 'limpo', 'limpo']]
 
 Passo 15:
   Percepção: limpo
   Ação: Ambiente Limpo
-  Direção: esquerda
-  Posição: (3, 1)
-  Pontuação: 2
-  Danos: 6
+  Direção: cima
+  Posição: (0, 3)
+  Pontuação: -7
+  Danos: 12
   Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst'], ['limpo', 'limpo', 'limpo', 'limpo'], ['obst', 'limpo', 'limpo', 'limpo']]
 
 Passo 16:
-  Percepção: sujo
-  Ação: limpar
-  Direção: baixo
-  Posição: (3, 1)
-  Pontuação: 3
-  Danos: 7
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: esquerda
+  Posição: (0, 2)
+  Pontuação: -8
+  Danos: 12
   Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst'], ['limpo', 'limpo', 'limpo', 'limpo'], ['obst', 'limpo', 'limpo', 'limpo']]
 
 Passo 17:
   Percepção: limpo
   Ação: Ambiente Limpo
   Direção: esquerda
-  Posição: (3, 0)
-  Pontuação: 2
-  Danos: 7
+  Posição: (0, 1)
+  Pontuação: -9
+  Danos: 12
   Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst'], ['limpo', 'limpo', 'limpo', 'limpo'], ['obst', 'limpo', 'limpo', 'limpo']]
 
 Passo 18:
-  Percepção: obst
-  Ação: obst
-  Direção: cima
-  Posição: (2, 0)
-  Pontuação: 2
-  Danos: 8
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: esquerda
+  Posição: (0, 0)
+  Pontuação: -10
+  Danos: 12
   Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst'], ['limpo', 'limpo', 'limpo', 'limpo'], ['obst', 'limpo', 'limpo', 'limpo']]
 
 Passo 19:
-  Percepção: sujo
-  Ação: limpar
-  Direção: direita
-  Posição: (2, 1)
-  Pontuação: 3
-  Danos: 8
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: esquerda
+  Posição: (0, 0)
+  Pontuação: -11
+  Danos: 13
   Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst'], ['limpo', 'limpo', 'limpo', 'limpo'], ['obst', 'limpo', 'limpo', 'limpo']]
 
 Passo 20:
   Percepção: limpo
   Ação: Ambiente Limpo
   Direção: cima
-  Posição: (1, 1)
-  Pontuação: 2
-  Danos: 8
+  Posição: (0, 0)
+  Pontuação: -12
+  Danos: 14
   Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst'], ['limpo', 'limpo', 'limpo', 'limpo'], ['obst', 'limpo', 'limpo', 'limpo']]
 
 Passo 21:
   Percepção: limpo
   Ação: Ambiente Limpo
-  Direção: esquerda
-  Posição: (1, 0)
-  Pontuação: 1
-  Danos: 8
+  Direção: direita
+  Posição: (0, 1)
+  Pontuação: -13
+  Danos: 14
   Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst'], ['limpo', 'limpo', 'limpo', 'limpo'], ['obst', 'limpo', 'limpo', 'limpo']]
 
 Passo 22:
   Percepção: limpo
   Ação: Ambiente Limpo
-  Direção: cima
-  Posição: (0, 0)
-  Pontuação: 0
-  Danos: 8
+  Direção: baixo
+  Posição: (1, 1)
+  Pontuação: -14
+  Danos: 14
   Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst'], ['limpo', 'limpo', 'limpo', 'limpo'], ['obst', 'limpo', 'limpo', 'limpo']]
 
 Passo 23:
-  Percepção: limpo
-  Ação: Ambiente Limpo
-  Direção: direita
-  Posição: (0, 1)
-  Pontuação: -1
-  Danos: 8
+  Percepção: sujo
+  Ação: limpar
+  Direção: baixo
+  Posição: (2, 1)
+  Pontuação: -13
+  Danos: 14
   Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst'], ['limpo', 'limpo', 'limpo', 'limpo'], ['obst', 'limpo', 'limpo', 'limpo']]
 
 Passo 24:
-  Percepção: limpo
-  Ação: Ambiente Limpo
-  Direção: baixo
-  Posição: (1, 1)
-  Pontuação: -2
-  Danos: 8
+  Percepção: sujo
+  Ação: limpar
+  Direção: esquerda
+  Posição: (2, 0)
+  Pontuação: -12
+  Danos: 14
   Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst'], ['limpo', 'limpo', 'limpo', 'limpo'], ['obst', 'limpo', 'limpo', 'limpo']]
 
 Passo 25:
-  Percepção: limpo
-  Ação: Ambiente Limpo
-  Direção: esquerda
+  Percepção: sujo
+  Ação: limpar
+  Direção: cima
   Posição: (1, 0)
-  Pontuação: -3
-  Danos: 8
+  Pontuação: -11
+  Danos: 14
   Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst'], ['limpo', 'limpo', 'limpo', 'limpo'], ['obst', 'limpo', 'limpo', 'limpo']]
 
 Passo 26:
   Percepção: limpo
   Ação: Ambiente Limpo
-  Direção: baixo
-  Posição: (2, 0)
-  Pontuação: -4
-  Danos: 8
+  Direção: direita
+  Posição: (1, 1)
+  Pontuação: -12
+  Danos: 14
   Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst'], ['limpo', 'limpo', 'limpo', 'limpo'], ['obst', 'limpo', 'limpo', 'limpo']]
 
 Passo 27:
   Percepção: limpo
   Ação: Ambiente Limpo
   Direção: baixo
-  Posição: (3, 0)
-  Pontuação: -5
-  Danos: 8
+  Posição: (2, 1)
+  Pontuação: -13
+  Danos: 14
   Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst'], ['limpo', 'limpo', 'limpo', 'limpo'], ['obst', 'limpo', 'limpo', 'limpo']]
 
 Passo 28:
-  Percepção: obst
-  Ação: obst
-  Direção: baixo
-  Posição: (3, 0)
-  Pontuação: -5
-  Danos: 10
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: esquerda
+  Posição: (2, 0)
+  Pontuação: -14
+  Danos: 14
   Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst'], ['limpo', 'limpo', 'limpo', 'limpo'], ['obst', 'limpo', 'limpo', 'limpo']]
 
 Passo 29:
-  Percepção: obst
-  Ação: obst
-  Direção: esquerda
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: baixo
   Posição: (3, 0)
-  Pontuação: -5
-  Danos: 12
+  Pontuação: -15
+  Danos: 14
   Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst'], ['limpo', 'limpo', 'limpo', 'limpo'], ['obst', 'limpo', 'limpo', 'limpo']]
 
 Passo 30:
   Percepção: obst
   Ação: obst
-  Direção: baixo
+  Direção: esquerda
   Posição: (3, 0)
-  Pontuação: -5
-  Danos: 14
+  Pontuação: -15
+  Danos: 16
   Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst'], ['limpo', 'limpo', 'limpo', 'limpo'], ['obst', 'limpo', 'limpo', 'limpo']]
 
 Passo 31:
   Percepção: obst
   Ação: obst
-  Direção: esquerda
+  Direção: baixo
   Posição: (3, 0)
-  Pontuação: -5
-  Danos: 16
+  Pontuação: -15
+  Danos: 18
   Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst'], ['limpo', 'limpo', 'limpo', 'limpo'], ['obst', 'limpo', 'limpo', 'limpo']]
 
 Passo 32:
   Percepção: obst
   Ação: obst
-  Direção: baixo
-  Posição: (3, 0)
-  Pontuação: -5
-  Danos: 18
+  Direção: direita
+  Posição: (3, 1)
+  Pontuação: -15
+  Danos: 19
   Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst'], ['limpo', 'limpo', 'limpo', 'limpo'], ['obst', 'limpo', 'limpo', 'limpo']]
 
 Passo 33:
-  Percepção: obst
-  Ação: obst
-  Direção: baixo
-  Posição: (3, 0)
-  Pontuação: -5
-  Danos: 20
+  Percepção: sujo
+  Ação: limpar
+  Direção: direita
+  Posição: (3, 2)
+  Pontuação: -14
+  Danos: 19
   Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst'], ['limpo', 'limpo', 'limpo', 'limpo'], ['obst', 'limpo', 'limpo', 'limpo']]
 
 Passo 34:
-  Percepção: obst
-  Ação: obst
-  Direção: esquerda
-  Posição: (3, 0)
-  Pontuação: -5
-  Danos: 22
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: direita
+  Posição: (3, 3)
+  Pontuação: -15
+  Danos: 19
   Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst'], ['limpo', 'limpo', 'limpo', 'limpo'], ['obst', 'limpo', 'limpo', 'limpo']]
 
 Passo 35:
-  Percepção: obst
-  Ação: obst
+  Percepção: sujo
+  Ação: limpar
   Direção: baixo
-  Posição: (3, 0)
-  Pontuação: -5
-  Danos: 24
+  Posição: (3, 3)
+  Pontuação: -14
+  Danos: 20
   Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst'], ['limpo', 'limpo', 'limpo', 'limpo'], ['obst', 'limpo', 'limpo', 'limpo']]
 
 Passo 36:
-  Percepção: obst
-  Ação: obst
+  Percepção: limpo
+  Ação: Ambiente Limpo
   Direção: esquerda
-  Posição: (3, 0)
-  Pontuação: -5
-  Danos: 26
+  Posição: (3, 2)
+  Pontuação: -15
+  Danos: 20
   Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst'], ['limpo', 'limpo', 'limpo', 'limpo'], ['obst', 'limpo', 'limpo', 'limpo']]
 
 Passo 37:
-  Percepção: obst
-  Ação: obst
-  Direção: esquerda
-  Posição: (3, 0)
-  Pontuação: -5
-  Danos: 28
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: baixo
+  Posição: (3, 2)
+  Pontuação: -16
+  Danos: 21
   Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst'], ['limpo', 'limpo', 'limpo', 'limpo'], ['obst', 'limpo', 'limpo', 'limpo']]
 
 Passo 38:
-  Percepção: obst
-  Ação: obst
-  Direção: baixo
-  Posição: (3, 0)
-  Pontuação: -5
-  Danos: 30
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: direita
+  Posição: (3, 3)
+  Pontuação: -17
+  Danos: 21
   Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst'], ['limpo', 'limpo', 'limpo', 'limpo'], ['obst', 'limpo', 'limpo', 'limpo']]
 
 Passo 39:
-  Percepção: obst
-  Ação: obst
+  Percepção: limpo
+  Ação: Ambiente Limpo
   Direção: direita
-  Posição: (3, 1)
-  Pontuação: -5
-  Danos: 31
+  Posição: (3, 3)
+  Pontuação: -18
+  Danos: 22
   Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst'], ['limpo', 'limpo', 'limpo', 'limpo'], ['obst', 'limpo', 'limpo', 'limpo']]
 
 Passo 40:
   Percepção: limpo
   Ação: Ambiente Limpo
-  Direção: direita
-  Posição: (3, 2)
-  Pontuação: -6
-  Danos: 31
+  Direção: baixo
+  Posição: (3, 3)
+  Pontuação: -19
+  Danos: 23
   Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst'], ['limpo', 'limpo', 'limpo', 'limpo'], ['obst', 'limpo', 'limpo', 'limpo']]
 
 Passo 41:
   Percepção: limpo
   Ação: Ambiente Limpo
-  Direção: direita
-  Posição: (3, 3)
-  Pontuação: -7
-  Danos: 31
+  Direção: esquerda
+  Posição: (3, 2)
+  Pontuação: -20
+  Danos: 23
   Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst'], ['limpo', 'limpo', 'limpo', 'limpo'], ['obst', 'limpo', 'limpo', 'limpo']]
 
 Passo 42:
+  Percepção: limpo
+  Ação: Ambiente Limpo
+  Direção: cima
+  Posição: (2, 2)
+  Pontuação: -21
+  Danos: 23
+  Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst'], ['limpo', 'limpo', 'limpo', 'limpo'], ['obst', 'limpo', 'limpo', 'limpo']]
+
+Passo 43:
   Percepção: sujo
   Ação: limpar
-  Direção: direita
-  Posição: (3, 3)
-  Pontuação: -6
-  Danos: 32
+  Direção: cima
+  Posição: (1, 2)
+  Pontuação: -20
+  Danos: 23
   Estado do grid: [['limpo', 'limpo', 'limpo', 'limpo'], ['limpo', 'limpo', 'obst', 'obst'], ['limpo', 'limpo', 'limpo', 'limpo'], ['obst', 'limpo', 'limpo', 'limpo']]
 

@@ -17,11 +17,10 @@ def simular_simples():
     arquivo de texto para análise posterior."""
 
     ambiente = [
-        ["sujo", "limpo", "sujo", "sujo", "limpo"],
-        ["limpo", "sujo", "obst", "sujo", "limpo"],
-        ["sujo", "obst", "sujo", "limpo", "sujo"],
-        ["limpo", "sujo", "limpo", "sujo", "obst"],
-        ["sujo", "obst", "sujo", "limpo", "sujo"]
+        ["sujo", "sujo", "sujo", "sujo"],
+        ["limpo", "sujo", "obst", "obst"],
+        ["sujo", "sujo", "sujo", "limpo"],
+        ["obst", "sujo", "limpo", "sujo"],
     ]
     agente = VaccumAgentSimple()
     env = En(agente, ambiente)
@@ -45,10 +44,11 @@ def simular_simples():
             "Direção": direcao,
             "Posição": agente.position,
             "Pontuação": agente.score,
+            "Danos": agente.damage,
             "Estado do grid": env.grid,
         })
 
-        if env.steps >= 100 or not any("sujo" in linha for linha in env.grid):
+        if env.steps >= 200 or env.all_clean():
             aux = False
         
     
@@ -70,11 +70,10 @@ def simular_model():
     """
 
     ambiente = [
-        ["sujo", "limpo", "sujo", "sujo", "limpo"],
-        ["limpo", "sujo", "obst", "sujo", "limpo"],
-        ["sujo", "obst", "sujo", "limpo", "sujo"],
-        ["limpo", "sujo", "limpo", "sujo", "obst"],
-        ["sujo", "obst", "sujo", "limpo", "sujo"]
+        ["sujo", "sujo", "sujo", "sujo"],
+        ["limpo", "sujo", "obst", "obst"],
+        ["sujo", "sujo", "sujo", "limpo"],
+        ["obst", "sujo", "limpo", "sujo"],
     ]
     agente = VaccumAgentModel()
     env = En(agente, ambiente)
@@ -102,9 +101,10 @@ def simular_model():
                 "Direção": direcao,
                 "Posição": agente.position,
                 "Pontuação": agente.score,
+                "Danos": agente.damage,
                 "Estado do grid": env.grid,
             })  
-        if agente.all_clean(env.grid):
+        if env.steps >= 200 or env.all_clean():
             aux = False
 
     salvar_simulacao_txt(initial_infos, infos, "resultado_simulacao_modelo.txt")

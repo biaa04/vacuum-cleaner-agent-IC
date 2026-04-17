@@ -5,12 +5,13 @@ class VaccumAgentSimple:
     """O agente aspirador simples é um agente reativo que toma decisões com base na percepção atual do ambiente. 
     Ele não possui memória e não leva em consideração ações passadas ou o estado geral do ambiente. 
     O agente simplesmente reage à percepção atual, limpando se estiver sujo, reconhecendo quando o ambiente está 
-    limpo e desviando de obstáculos. Ele pode se mover em quatro direções: esquerda, direita, cima e baixo."""
+    limpo. Ele pode se mover em quatro direções: esquerda, direita, cima e baixo."""
 
     def __init__(self):
-        """Inicializa o agente com pontuação zero e posição inicial (0, 0)."""
+        """Inicializa o agente com pontuação zero, posição inicial (0, 0) e danos 0."""
         self.score = 0
         self.position = (0, 0)
+        self.damage = 0
 
     def action(self, percept):
         """Determina a ação a ser tomada com base na percepção atual do ambiente.
@@ -18,8 +19,9 @@ class VaccumAgentSimple:
         - Se a percepção for "sujo", o agente decide limpar.
         - Se a percepção for "limpo", o agente reconhece que o ambiente está limpo e pode 
         escolher mover-se para explorar outras áreas.
-        - Se a percepção for "obst", o agente reconhece um obstáculo e decide mover-se para evitar 
-        colidir com ele.
+        - Se a percepção for "obst", o agente irá bater nele e sofrer danos. Ele não entende que é um obstáculo, 
+        ele apenas reage a ele como se fosse um ambiente limpo, ou seja, ele irá tentar se mover para 
+        uma direção aleatória, mas ele irá bater no obstáculo e sofrer danos.
         O agente retorna a ação escolhida e a direção para a qual se moverá ou realizará
         """
         if percept == "sujo":

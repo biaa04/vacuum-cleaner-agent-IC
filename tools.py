@@ -18,6 +18,7 @@ def salvar_simulacao_txt(initial_infos, infos, nome_arquivo="resultado_simulacao
             f.write(f"  Direção: {passo['Direção']}\n")
             f.write(f"  Posição: {tuple(passo['Posição'])}\n")
             f.write(f"  Pontuação: {passo['Pontuação']}\n")
+            f.write(f"  Danos: {passo['Danos']}\n")
             f.write(f"  Estado do grid: {passo['Estado do grid']}\n\n")
 
     print(f"Arquivo '{nome_arquivo}' salvo com sucesso!")
